@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابطي</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+            font-size: 28px;
+        }
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 280px;
+            margin: 12px 0;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            border-radius: 12px;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+        }
+        .instagram { background: #E1306C; }
+        .snapchat { background: #FFFC00; color: #000; }
+        .tiktok { background: #000000; }
+        .whatsapp { background: #25D366; }
+        .icon {
+            margin-right: 12px;
+            font-size: 26px;
+        }
+        @media (max-width: 500px) {
+            .button { width: 220px; font-size: 18px; }
+            h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <h1>تابعوني على حساباتي</h1>
+
+    <a class="button instagram" href="https://www.instagram.com/its.arkea?utm_source=qr&igsh=cDhsOXc1dnc5NGk3" target="_blank">
+        <span class="icon"><i class="fab fa-instagram"></i></span> إنستغرام
+    </a>
+
+    <a class="button snapchat" href="https://www.snapchat.com/add/its.arkea?share_id=uv9pQRH6VLw&locale=ar-SA" target="_blank">
+        <span class="icon"><i class="fab fa-snapchat"></i></span> سناب شات
+    </a>
+
+    <a class="button tiktok" href="https://www.tiktok.com/@its.arkea?_t=ZS-8zF3Nb94F7M&_r=1" target="_blank">
+        <span class="icon"><i class="fab fa-tiktok"></i></span> تيك توك
+    </a>
+
+    <a class="button whatsapp" href="https://wa.me/message/PEUREAKU23ROD1" target="_blank">
+        <span class="icon"><i class="fab fa-whatsapp"></i></span> واتس اب
+    </a>
+</body>
+</html>
